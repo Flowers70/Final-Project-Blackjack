@@ -245,8 +245,6 @@ while endProgram == False:
 		for player in playerList:
 			# If the drawing deck is empty, then it is reset with 52 cards.
 			if len(drawingDeck.cards) == 0:
-				print("New Deck in play")
-				print()
 				drawingDeck = createDrawingDeck()
 
 			# If the player id equals zero, then the player is a cpu.
